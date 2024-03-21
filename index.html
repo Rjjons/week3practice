@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 3 Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <div class="wk">
+            <h1>Week 3 Assignment</h1>
+        </div>
+        <div>
+            <h2>File Path</h2>
+            <section class="sect1">
+                <p>
+                    Absolute and relative URLs are both ways to specify the location of
+                    a resource on the internet, typically used in web development and
+                    when linking between web pages. The main difference lies in how they
+                    specify the location of the resource:
+                </p>
+                <p>
+                    1. Absolute URLs: An absolute URL provides the complete address of
+                    the resource, including the protocol (such as HTTP or HTTPS), domain
+                    name (or IP address), and the path to the specific resource.
+                    Example: https://www.example.com/images/picture.jpg Absolute URLs
+                    are self-contained and can be used to directly locate a resource
+                    from anywhere on the web.
+                </p>
+                <p>
+                    2. Relative URLs: A relative URL specifies the location of a
+                    resource relative to the current page or the current domain.
+                    Relative URLs don't include the protocol and domain part. Instead,
+                    they only specify the path to the resource relative to the current
+                    location. They are often used within the same website to link to
+                    other pages or resources. Example: If you're on the page
+                    https://www.example.com/index.html and want to link to an image in
+                    the same directory, you could use a relative URL like
+                    images/picture.jpg.
+                </p>
+                <p>
+                    In summary, absolute URLs provide the complete address of a
+                    resource, including the protocol and domain, while relative URLs
+                    specify the location of a resource relative to the current page or
+                    domain. Relative URLs are often more flexible and convenient for
+                    linking within the same website, while absolute URLs are necessary
+                    when linking to external resources or when the exact location of the
+                    resource needs to be explicitly specified.
+                </p>
+            </section>
+        </div>
+    </div>
+    <div>
+        <section>
+            <div>
+                <div>
+                    <h2>
+                        What are the advantages of using relative URLs over absolute URLs?
+                    </h2>
+                </div>
+                <div>
+                    <p>
+                        Using relative URLs over absolute URLs offers several advantages,
+                        particularly in web development: Portability: Relative URLs make
+                        your website more portable because they are not tied to a specific
+                        domain. This means if you need to move your website to a new
+                        domain or subdomain, you don't have to update every link within
+                        your site. Flexibility: Relative URLs allow for more flexibility
+                        when developing and testing websites locally. You can use the same
+                        relative URLs for local development and production environments
+                        without needing to change them.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section>
+        <div>
+            <h2>How do you create a link to an email address in HTML?</h2>
+        </div>
+        <div>
+            <p>For a developer to be able to create an Email address in his HTML he must have to use the anchor tag.</p>
+            <p>
+                <em>Example:</em> <a href=":joeetubi@gmail.com">Send an email</a>
+            </p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div>
+                <h2>
+                    Describe the purpose of the target attribute in an anchor tag.
+                </h2>
+
+            </div>
+            <div>
+
+                The <em>target</em> attribute in an anchor tag (<a>) specifies where to open
+                    the linked document when the user clicks on the link. It determines the behavior of the link in
+                    terms of how the linked content is displayed. The target attribute can take various values to
+                    achieve different behaviors:
+                    When you want to the anchor tag url that you provide to stay on the same page as the first
+                    opened page, you provide this
+                    <a href="joeetubi@gmail.com" target="_self">send an email </a> above anchor tag stays on the
+                    page while this open in another window
+                    <a href="joeetubi@gmail.com" target="_top"> Send an email</a>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div>
+                <h2>
+                    How do you link an external stylesheet to an HTML document?
+                </h2>
+                <div>
+                    <p>
+                        To link an external stylesheet to an HTML document, you use the
+                        <link> element within the
+
+                        <head> section of your HTML document. Here's how you do it:
+                    </p>
+
+                    <link rel="stylesheet" type="text/css" href="styles.css">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h2>
+                What is the purpose of the hreflang attribute in HTML?
+            </h2>
+        </div>
+        <div>
+            <p>
+                The hreflang attribute in HTML is used to specify the language and optionally the region of the linked
+                document. It is primarily used for indicating to search engines which language and regional variations
+                of a
+                webpage are available so that they can serve the most appropriate version to users based on their
+                language
+                preferences and location.
+            </p>
+            <div>
+                <p>
+                    <em>Example:</em>
+                    <code> <<span>link rel="alternate" hreflang="language_code" href="URL_of_alternate_page"</span>></code>
+                </p>
+
+                <p>
+                    When you have several
+                    For example, if you have multiple versions of a webpage in different languages, you can use the
+                    hreflang attribute to specify each language version:
+                </p>
+
+                <p>
+                <div> link rel="alternate" hreflang="en" href="https://example.com/english-page.html"
+                </div>
+                <div>link rel="alternate" hreflang="fr" href="https://example.com/french-page.html"
+                </div>
+                <div>link rel="alternate" hreflang="es" href="https://example.com/spanish-page.html"</div>
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+        <div>
+            <h2>Using appropriate file naming conventions in web development is crucial for several reasons:
+
+            </h2>
+        </div>
+        <div>
+            Organization and Clarity: Clear and consistent file names make it easier for developers to understand
+            the purpose and content of each file. This is especially important in large projects with many files,
+            where a systematic naming convention helps maintain order and facilitates collaboration among team
+            members.
+
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h2>Explain the structure of an HTML form.</h2>
+        </div>
+        <div>
+            <p>
+                An HTML form is used to collect input from users and submit it to a server for processing. It consists
+                of
+                several components, each with its own purpose. Here's an overview of the structure of an HTML form:
+            </p>
+        </div>
+        <div>
+            <p>
+                Form Element: The form element is used to create the form container. It contains all the input elements
+                and defines how the data will be sent to the server.
+
+                <code>
+                        <div> 
+                            form action="/submit_form.php" method="post"
+                            <!-- Input elements go here -->
+                            /form
+                            
+                        </div>
+                        
+
+                    </code>
+
+            <p>action: Specifies the URL where the form data will be submitted.</p>
+            <p> method: Specifies the HTTP method used to send the form data (GET or POST). </p>
+
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h2>
+                What are the different types of form inputs available in HTML?
+
+            </h2>
+        </div>
+        <div>
+            <p>
+                Form tag is the html element that serves as a container to house input to be collected from the user to
+                be store in the server. And different types of input are available for the developer to use e.g Text
+                Input: Allows users to enter a single line of text, Password Input: Similar to text input but hides the
+                entered characters, Radio Button: Allows users to select one option from a list, Checkbox: Allows users
+                to select one or more options from a list.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h2>
+                Describe the purpose of the action attribute in a form tag.
+            </h2>
+        </div>
+
+        <div>
+            The action attribute in an HTML <form> tag specifies the URL where the form data will be submitted for
+                processing when the form is submitted by the user. In other words, it defines the endpoint or
+                destination where the browser should send the form data.
+                action="/submit_form.php": This attribute specifies the URL "/submit_form.php" as the endpoint where the
+                form data will be sent.
+        </div>
+    </section>
+
+    <footer>
+        <em>
+            Copyright! Growing Minds Tech.
+        </em>
+    </footer>
+</body>
+
+</html>
