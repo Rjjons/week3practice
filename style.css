@@ -3,6 +3,10 @@ body{
     max-width: auto;
     margin-right: 50px;
     margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* font-size: large; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 
 }
@@ -12,6 +16,9 @@ body{
 .sect{
     padding-left: 49px; padding-right: 49px;
 
+}
+.h2{
+    font-size: 2pt;
 }
 
 
